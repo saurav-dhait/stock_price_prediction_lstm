@@ -71,10 +71,13 @@ python main.py
 ```
 
 ## Results
-- The project will output two plots:
+The project will output two plots:
 1. Actual vs. Predicted stock prices for the training dataset.
-- ![image](https://github.com/saurav-dhait/stock_price_prediction_lstm/blob/main/img/1.png)
+<br/>
+![image](https://github.com/saurav-dhait/stock_price_prediction_lstm/blob/main/img/1.png)
+
 2. Actual vs. Predicted stock prices for the testing dataset.
-- ![image](https://github.com/saurav-dhait/stock_price_prediction_lstm/blob/main/img/2.png)
+<br/>
+![image](https://github.com/saurav-dhait/stock_price_prediction_lstm/blob/main/img/2.png)
 ## Acknowledgements
 This project is inspired by various tutorials and resources available for time series forecasting using LSTM networks.
