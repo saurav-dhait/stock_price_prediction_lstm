@@ -140,7 +140,7 @@ def main():
     x_test = torch.tensor(x_test).float()
     y_test = torch.tensor(y_test).float()
 
-    # creating a Dataset objects
+    # creating Dataset objects
     train_dataset = TimeSeriesDataset(x_train, y_train)
     test_dataset = TimeSeriesDataset(x_test, y_test)
 
@@ -155,7 +155,7 @@ def main():
         print(x_batch.shape, y_batch.shape)
         break
 
-    # initialize model learning rate, loss function, optimizer
+    # initialize model, learning rate, loss function, optimizer
     model = LSTM(1, 4, 1, device)
     model.to(device)
     learning_rate = 0.001
